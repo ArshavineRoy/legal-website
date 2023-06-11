@@ -7,37 +7,407 @@
     <link rel="shortcut icon" href="./resources/equality-icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
 
-    <!-- https://github.com/ArshavineRoy/legal-website -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/2ec18317e9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="full-nav">
         <div class="upper-nav">
             <ul>
-                <li>469 7th Ave, Suite 204, New York, NY 10018</li>
-                <a href="te: (917)-637-636-4349"></a><li>(917)-637-636-4349</li>
-                <a href="mailto: info@aleroy.com"><li>info@aleroy.com</li></a>
+                <li>
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    469 7th Ave, Suite 204, New York, NY 10018
+                </li>
+                <li>
+                    <a href="tel: (917)-637-636-4349">
+                        <i class="fa fa-phone"></i>
+                        (917)-637-636-4349
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto: info@aleroy.com">
+                        <i class="fas fa-envelope"></i>
+                        info@aleroy.com
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="lower-nav">
             <div class="logo">
-                <img src="./resources/equality-logo.png" alt="Ale & Roy PLLC logo">
+                <img src="./resources/equality-logo.png" alt="Ale & Roy PLLC logo" class="logo-image">
                 <span class="logo-text">Ale & Roy PLLC</span>
             </div>
             <nav class="navlinks">
                 <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Practice Areas</li>
-                    <li>News</li>
-                    <li>Careers</li>
-                    <li>Contact Us</li>
+                    <li>
+                        <!-- <i class="fa fa-home"></i> -->
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            About Us 
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <div class="drop-down">
+                            <ul>
+                                <li>
+                                    <a href="#about">
+                                        About Us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <a href="#">
+                            Our Firm 
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <div class="drop-down">
+                            <ul>
+                                <li>
+                                    <a href="#our-team">
+                                        Our Team
+                                    </a>                                
+                                </li>
+                                <li>
+                                    <a href="#careers">
+                                        Careers
+                                    </a>                                
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <a href="#practice-areas">
+                            Practice Areas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            News</a>
+                    </li>
+                    <li>
+                        <a href="#contact-us">
+                            Contact Us
+                        </a>                        
+                    </li>
                 </ul>
             </nav>
         </div>
 
     </div>
+    <div class="video-background">
+        <div class="video-foreground">
+            <video autoplay loop muted>
+                <source src="./resources/winning-cases.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="vid-top">
+            <h2>Let us</h2>
+            <h1>Fight for <span class="underlined">you.</span></h1>
+        </div>
+    </div>
     
+    <div class="about-us">
+        <p class="paragraphs">
+            <span id="about" style="font-size: 40px; font-weight: bold; color: #309ADC;">Who We Are</span> <br>
+            Founded in 2010 by Attorney A. W. Roy and Ale M. Lynn, Ale & Roy PLLC focuses its practice on representing property owners who have suffered damages to their homes and businesses. <br> Our primary goal is to provide our clients with zealous representation to ensure they achieve the results and compensation they deserve. <br>
+            
+            With over 10 years of experience, our firm has been serving clients throughout New York. <br> Our primary goal is to provide our clients with zealous representation to ensure they achieve the results and compensation they deserve.
+            As a boutique practice, Ale & Roy PLLC takes pride in offering personalized attention and responsive service to our clients. <br> We prioritize quality over quantity and limit our caseload to guarantee the most effective representation possible. <br>  Our approach is comprehensive and unwavering, supported by a seasoned team of litigation attorneys and professional staff dedicated to litigation support.
+        </p>
+        
+        <img src="./resources/sora-shimazaki.jpg" alt="court room" class="sora">
+    </div>
+    <div class="practice-areas" id="practice-areas">
+        <div class="cards">
+            <h1>What We Do</h1>
+            <div class="services">
+                <div class="content">
+                    <h2>Property Insurance Claims</h2>
+                    <p>
+                        Was your property insurance claim denied? Delayed? Underpaid? <br>
+                        An insurance policy is a contract. As a policyholder, you paid a premium. In exchange for that payment, your insurance company made some promises to you. <br> If you feel your insurance company isn’t holding up their end of the bargain, please contact us for a free consultation. <br>
+                        Ale & Roy PLLC proudly represents policyholders in disputes with their property insurance companies.
+                    </p>
+                    <h3>Type of claims we handle:</h3>
+                    <ul>
+                        <li>Water</li>
+                        <li>Fire</li>
+                        <li>Mold</li>
+                        <li>Hurricanes</li>
+                        <li>Windstorms</li>
+                        <li>Lightning</li>
+                        <li>Theft/Burglary/Vandalism</li>
+                        <li>Flood</li>
+                        <li>Boiler and Machinery</li>
+                        <li>Bad Faith</li>
+                        <li>Residential</li>
+                        <li>Commercial</li>
+                        <li>Business Interruption</li>
+                        <li>Hail</li>
+                    </ul>
+                    <a href="#contact">Inquire</a>
+                </div>
+                <div class="content content-2">
+                    <h2>Civil Litigation</h2>
+                    <p>
+                        While our firm focuses on representing property owners who suffered damages to their homes and businesses, we have extensive experience handling all sorts of legal issues and disputes. These include, but are not limited to:
+                    </p>
+                    <ul>
+                        <li>Contract Disputes</li>
+                        <li>Commercial Litigation</li>
+                        <li>Collections</li>
+                        <li>Breach of Contract</li>
+                        <li>Employment Disputes</li>
+                        <li>Real Estate Disputes</li>
+                        <li>Auto Accidents</li>
+                        <li>Personal Injury</li>
+                        <li>Premises Liability</li>
+                        <li>Foreclosures</li>
+                    </ul>
+                    <p>
+                        If you find yourself needing any sort of legal assistance, please contact us for a free consultation. Even if we are unable to help, we can refer you to an attorney who has the competence and skill to address your concerns.
+                    </p>
+                    <a href="#contact">Inquire</a>
+                </div>
+                <div class="content content-3">
+                    <h2>Insurance Fraud</h2>
+                    <p>
+                        The Firm has the depth of experience needed to manage the developments of an insurance fraud case from inception through prosecution to the fullest extent of the law in both civil and criminal courts. <br>
+                        
+                        The Ale & Roy PLLC Fraud Unit works with clients to determine which cases may qualify for prosecution and further develop these cases as an effective and solid case package to be submitted to the Division of Insurance Fraud, Offices of the State Attorney, or the United States Attorney’s Office. <br>
+                        
+                        The Ale & Roy PLLC Fraud Unit stays in constant communication with the Division of Insurance Fraud and prosecutors to provide on-going support and to keep all cases on track. <br> 
+                        Moreover, as part of our overall Fraud Unit practices, Ale & Roy PLLC has extensive investigative capabilities. <br>
+                        Our capabilities draw on both traditional legal skills as well as extensive criminal investigative experience. <br>
+                        The firm’s efficient investigative practices are highly cost-effective and can reduce clients’ overall investigation costs.
+                    </p>
+                    <a href="#contact">Inquire</a>
+                </div>
+                <div class="content content-4">
+                    <h2>Corporate Law</h2>
+                    <p>
+                        Ale & Roy PLLC's Corporate Division offers legal service to corporate clients, whether privately held or publicly traded. 
+                        Our attorneys serve as general counsel to clients and offer representation in forming and operating business entities, including:
+                    </p>
+                    <ul>
+                        <li>
+                            Corporations
+                        </li>
+                        <li>
+                            Partnerships
+                        </li>
+                        <li>
+                            Joint ventures
+                        </li>
+                        <li>
+                            LLCs
+                        </li>
+                    </ul>
+                    <p>
+                        Ale & Roy PLLC's attorneys conduct internal investigations and disciplinary actions as well as prepare a broad spectrum of agreements, including:
+                    </p>
+                    <ul>
+                        <li>Shareholder</li>
+                        <li>Management</li>
+                        <li>Marketing</li>
+                        <li>Licensing</li>
+                        <li>Non-competitive</li>
+                        <li>Employment agreements</li>
+                    </ul>
+                    <a href="#contact">Inquire</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="our-firm">
+        <h1 id="our-team">
+            Our Team
+        </h1>
+        
+        <div class="container">
+            <div class="profile-card">
+                <div class="front-face">
+                    <div class="cover">
+                        <img src="./resources/roy.jpg" class="profile">
+                    </div>
+                    <div class="name">
+                        A. W. Roy
+                    </div>
+                    <div class="tag">
+                        Co-Founder
+                    </div>
+                    <p class="details">
+                        Lorem Ipsum
+                    </p>
+                </div>
+                <div class="back-face">
+                    <h1>
+                        Roy's Profile
+                    </h1>
+                    <p>
+                        Lorem Ipsum
+                    </p>
+                    <div class="social-icons">
+                        <i class="fa fa-twitter-square"></i>
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="front-face">
+                    <div class="cover">
+                        <img src="./resources/ale.jpg" class="profile">
+                    </div>
+                    <div class="name">
+                        Ale M. Lynn
+                    </div>
+                    <div class="tag">
+                        Co-Founder
+                    </div>
+                    <p class="details">
+                        Lorem Ipsum
+                    </p>
+                </div>
+                <div class="back-face">
+                    <h1>
+                        Ale's Profile
+                    </h1>
+                    <p>
+                        Lorem Ipsum
+                    </p>
+                    <div class="social-icons">
+                        <i class="fa fa-twitter-square"></i>
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="front-face">
+                    <div class="cover">
+                        <img src="./resources/kuzuryu-master.jpg" class="profile">
+                    </div>
+                    <div class="name">
+                        Mirisho Kuzuryu
+                    </div>
+                    <div class="tag">
+                        Partner
+                    </div>
+                    <p class="details">
+                        Lorem Ipsum
+                    </p>
+                </div>
+                <div class="back-face">
+                    <h1>
+                        Kuzuryu's Profile
+                    </h1>
+                    <p>
+                        Lorem Ipsum
+                    </p>
+                    <div class="social-icons">
+                        <i class="fa fa-twitter-square"></i>
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="front-face">
+                    <div class="cover">
+                        <img src="./resources/harsh-gupta.jpg" class="profile">
+                    </div>
+                    <div class="name">
+                        Harsh Gupta Jr.
+                    </div>
+                    <div class="tag">
+                        Partner
+                    </div>
+                    <p class="details">
+                        Lorem Ipsum
+                    </p>
+                </div>
+                <div class="back-face">
+                    <h1>
+                        Gupta Jr. Profile
+                    </h1>
+                    <p>
+                        Lorem Ipsum
+                    </p>
+                    <div class="social-icons">
+                        <i class="fa fa-twitter-square"></i>
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="careers" id="careers">
+        <h1>
+            Join the Team
+        </h1>
+        <p>
+            As our firm continues to grow, we are constatly looking for new talent to join our team of attorneys, secretaries, paralegals, administrative roles, and more. <br>
+            Please send your resume and inquiries to <span style="font-weight: bold;"><a href="mailto: info@aleroy.com">careers@aleroy.com</a></span> or fill the form below.
+        </p>
+        <div class="work-with-us">
+            <form action="/action_page.php" autocomplete="on">
+                <label for="fullname">
+                    Full name
+                </label>
+                <input type="text" id="fname" name="fname" style="margin-right: 20px;"> <br>
+                <label for="email">
+                    Email
+                </label> 
+                <input type="text" name="email" style="margin-right: 20px; margin-top: 20px; margin-bottom: 20px;"><br>
+                <label for="resume">
+                    Upload Your Resume
+                </label> <br>
+                <input type="file" id="myFile" name="filename" class="choose-file"> <br>
+                <input type="submit" value="SEND" class="file-send">
+            </form>
+        </div>
+    </div>
+    <div class="contact-us">
+        <p class="contact-details" id="contact-us">
+          <span>Contact Us</span>          
+        </p>
+        <p class="contact-details">
+            <a href="tel: (917)-637-636-4349">
+                <i class="fa fa-phone"></i>
+                    (917)-637-636-4349
+            </a>
+            <br>
+            <a href="mailto: info@aleroy.com">
+                <i class="fas fa-envelope"></i>
+                    info@aleroy.com
+            </a>
+            <br>
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                469 7th Ave, New York, NY 10018 <br> Suite 204
+        </p>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d437.2163031203027!2d-73.98956348425754!3d40.751719807254815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ac0e42605b%3A0xaaebd1a17769c2f4!2s469%207th%20Ave%20%23204%2C%20New%20York%2C%20NY%2010018%2C%20USA!5e0!3m2!1sen!2ske!4v1686474379064!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
     
+    <div class="footer">
+        <div class="footer-contact" id="contact">
+            <p>
+                Copyright &copy;2023, Ale & Roy PLLC
+            </p>
+        </div>
+
+    </div>   
 </body>
 </html>
